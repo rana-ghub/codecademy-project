@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: "Helvetica";
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+header{
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+header div{
+    float: left;
+    
+    height: 69px;
+}
+header div img{
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 0.5rem;
+}
+a {
+    color: seashell;
+  }
+nav{
+    float: right;
+}
+ul{
+    margin: 0;
+    padding: 1rem;
+}
+li{
+    display: inline;
+    text-decoration-line: none;
+    text-decoration: underline;
+    padding: 10px;
+}
+.upper{
+    overflow: hidden;
+    background-image: url(../imges/img-mission-background.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 80%;
+    padding: 10rem 0;
+    margin: 69px auto;
+
+}
+.lol{
+    margin-top: 10%;
+}
+#side{
+    padding-left: 55px;
+}
+.upper h2, h4{
+    text-align: center;
+    margin: auto;
+    padding: 0.7rem;
+    line-height: 1.7rem;
+    background: black;
+}
+.middle{
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+    margin-left: 200px;
+}
+.images{
+    display: block;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+}
+.lower{
+    text-align: center;
+    background-image: url(../imges/img-locations-background.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 800px;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;    
+}   
+.lower h1{
+    padding-top: 5%;
+    color: seashell;
+    font-size: 2rem;
+}
+.place {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.place ul{
+    align-items: center;
+    padding: 15px 40px;
+    margin-top: 1px;
+}
+.place li{
+    display: block;
+    background-color: black;
+    padding: 30px;
+    text-decoration: none;
+    width: 300px;
+}
+#bold{
+    font-weight: 700;
+    font-size: larger;
+}
+footer{
+    text-align: center;
+    padding: auto;
+}
+.com{
+    font-weight: 600;
+}
+.last{
+    text-align: left;
+    margin-left: 20px;
+}
